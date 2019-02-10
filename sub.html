@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>일룸 라이브러리 | iloom</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/common.css" rel="stylesheet" />
+        <link href="css/sub.css" media="screen and (min-width: 851px)" rel="stylesheet" />
+        <link href="css/sub_mobile.css"  media="screen and (max-width: 850px)" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous">
+
+    </head>
+<body>
+        <div class="wrap" id="main">
+                <a href="#main" id="skip-nav">본문 바로가기</a>
+        <header>
+            <h1><a href="https://hongmii.github.io/iloom/#"><img src="img/gnb-logo.png" alt="일룸"></a></h1>
+            <h2 class="hide">대메뉴</h2>
+            <input type="checkbox" id="menuicon" class="mobile">
+            <label for="menuicon" class="mobile" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span></label>
+            
+            <div class="lnb">
+            <nav id="sidebar">
+                <ul>
+                    <li><a href="#">기업소개</a>
+                    <ul class="dep2">
+                        <li><a href="#">경영이념</a></li>
+                        <li><a href="#">경영방침</a></li>
+                        <li><a href="#">사업소개</a></li>
+                        <li><a href="#">연혁 및 수상</a></li>
+                        <li><a href="#">일룸소식</a></li>
+                    </ul>
+                </li>
+                    <li><a href="#">채용안내</a>
+                    <ul class="dep2">
+                        <li><a href="#">채용공고</a></li>
+                        <li><a href="#">나의 채용정보</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">일룸인사</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">투자정보
+                        <ul class="dep2">
+                            <li><a href="#">경영정보</a></li>
+                            <li><a href="#">재무정보</a></li>
+                            <li><a href="#">공시</a></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#">사회공헌</a>
+                    <ul class="dep2">
+                        <li><a href="#">일룸사회공헌</a></li>
+                        <li><a href="#">사회공헌 발자취</a></li>
+                        <li><a href="#">일룸 사회공헌 소식</a></li>
+                    </ul></li>
+                    <li><a href="#">고객지원</a>
+                    <ul class="dep2">
+                        <li><a href="#">일룸서비스센터</a></li>
+                        <li><a href="#">고객상담</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">대리점 개설 안내</a></li>
+                    </ul></li>
+                </ul>
+            </nav>
+            <div></div>
+        </div>
+            <h2 class="hide">회원가입</h2>
+            <ul class="join">
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">JOIN</a></li>
+        </ul>
+        </header>
+        <!-- header -->
+
+   <section class="library">
+       <h2><img src="img/gnb-logo.png" alt="iloom"> 라이브러리</h2>
+       <p>매거진에 소개된 일룸의 모습입니다.</p>
+   </section>
+
+   <section class="library-main">
+       <h2>MAGAZINE</h2>
+       <a href="#"><img src="img/mag-main.jpg" alt="까사리빙에 실린 일룸제품"></a>
+       <p class="casa">까사리빙</p>
+       <p class="present">우리 아이를 위한 사랑스러운 선물</p>
+       <p class="month">2018.12</p>
+       <p class="summary">이번 크리스마스 선물은 무엇으로 해야 할까? 산타할아버지 역할을 해야하는 아빠엄마의 고민이 매년 깊어진다. 올 크리스마스에는 우리 아이를 디즈니 만화영화 속 주인공으로 만들어주자.</p>
+   </section>
+
+
+   <section class="article" id="js-load">
+       <ul class="lists">
+           <li class="list__item js-load"><a href="#"><img src="img/mag1.jpg" alt="베스트베이비"><p>베스트베이비</p><span>일룸</span><em>2018.12</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag2.jpg" alt="스타일러-일룸은 왜?"><p>스타일러</p><span>일룸은 왜?</span><em>2018.9</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag3.jpg" alt="올리브-그녀들의 이유있는 선택"><p>올리브</p><span>그녀들의 이유있는 선택</span><em>2018.9</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag4.jpg" alt="어라운드-이유 있는 디자인"><p>어라운드</p><span>이유있는 디자인</span><em>2018.9</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag5.jpg" alt="스타일러-드라마속 그들이 사는 공안,김비서의 탁월한 선택"><p>스타일러</p><span>드라마 속 그들이 사는 공간, 김비서의 탁월한 선택</span><em>2018.7</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag6.jpg" alt="베스트베이비-아이가 사랑하는 아이방 만들기 클래스 현장에 가다!"><p>베스트베이비</p><span>아이가 사랑하는 아이방 만들기</span><em>2018.7</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag7.jpg" alt="행복이 가득한집-'김비서가 왜그럴까'드라마 속 그 가구"><p>행복이가득한집</p><span>'김비서가 왜 그럴까'드라마 속 그 가구</span><em>2018.7</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag8.jpg" alt="마이웨딩-실용적이고 트렌디한 미엘 모션베드"><p>마이웨딩</p><span>실용적이고 트랜디한 미엘 모션베드, 일룸</span><em>2018.5</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag9.jpg" alt="베스트베이비-아이와 함께 성장하는 가구"><p>베스트베이비</p><span>아이와 함께 성장하는 가구</span><em>2018.5</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag10.jpg" alt="스타일러- 마이린의 창의력이 샘솟는 방"><p>스타일러</p><span>마이린의 창의력이 샘솟는 방</span><em>2018.3</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag11.jpg" alt="여성동아-아이가 사랑하는 아이방 인테리어"><p>여성동아</p><span>'아이가 사랑하는 아이방'인테리어</span><em>2018.3</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag12.jpg" alt="까사리빙-성장을 고려한 가구"><p>까사리빙</p><span>성장을 고려한 가구, 상상력이 풍부한 아이라면</span><em>2018.2</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag13.jpg" alt="베스트베이비-일룸X디즈니 콜라보레이션가구"><p>베스트베이비</p><span>일룸X디즈니 콜라보레이션 키즈가구를 만나다!</span><em>2017.12</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag14.jpg" alt="에스콰이어-공유의 리클라이너 활용백서"><p>에스콰이어</p><span>공유의 리클라이너 활용백서</span><em>2017.11</em></a></li>
+           <li class="list__item js-load"><a href="#"><img src="img/mag15.jpg" alt="마이웨딩-세로운 신혼라이프,일룸"><p>마이웨딩</p><span>새로운 신혼라이프, 일룸</span><em>2017.9</em></a></li>
+       </ul>
+      <div id="js-btn-wrap" class="btn-wrap"> <a href="#" class="button">더보기</a></div>
+   </section>
+
+
+   
+   <footer>
+        <div class="wrap">
+        <ul><li>
+            <a href="#"><img src="img/footer-logo.png" alt="iloom"></a>
+        </li>
+        <li class="sns"><a href="#"><img src="img/footer-b.png" alt="네이버 블로그"></a>
+       <a href="#"><img src="img/footer-f.png" alt="페이스북"></a> 
+       <a href="#"><img src="img/footer-i.png" alt="인스타그램"></a> </li>
+    </ul>
+        <ul ><li><address>
+            서울시 송파구 오금로311(오금동45-1)(주)일룸-대표이사 강성문<br>
+            개인정보보호 책임자:강성문<br>
+            사업자등록번호:215-86-93600 통신판매업신고: 2009-서울송파-0069호 부가통신사업신고필증:021129<br>
+            webmaster@iloom.com Copyright &copy; 2019 iloom Inc All rights reserved
+
+        </address></li></ul>
+        <ul class="cs">
+            <li>
+                고객센터<span>1577-5670</span><em class="pc">평일 09:30~17:30, 제품문의, 매장안내,AS, 분해설치</em>
+            </li>
+            <li class="pc">
+            <a href="#"><img src="img/mark-1.png" alt="Norton by Symantec"></a>
+            <a href="#"><img src="img/mark-2.png" alt="현금영수증"></a>
+            <a href="#"><img src="img/mark-3.png" alt="LGU+, escrow"></a>
+        </li></ul>
+    </div>
+    </footer>
+
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
